@@ -1,7 +1,7 @@
-# Awesome Claude Code Website
+# Feature: Content Integration
 
 ## Overview
-Educational website about Claude Code designed for developers. Combines educational content delivery with modern layout structure and interactive components.
+This feature handles the integration and management of diverse content types within the application. It provides a unified interface for content ingestion, processing, and display across different media formats and sources.
 
 ## Development Guidelines
 - This feature is developed in isolation from other features
@@ -9,40 +9,39 @@ Educational website about Claude Code designed for developers. Combines educatio
 - Follow established coding conventions and patterns
 - Write comprehensive tests for new functionality
 
-## Key Features
-- Educational content about Claude Code usage
-- Interactive components (terminal simulator, command builder)
-- Modern layout with responsive design
-- Dark theme optimized for developers
-- Progressive learning structure
+## Key Responsibilities
+- Content ingestion from multiple sources (APIs, files, user input)
+- Content processing and normalization
+- Media handling (images, videos, documents)
+- Content categorization and tagging
+- Integration with existing content display components
+- Content versioning and history tracking
 
 ## Getting Started
 ```bash
-# Install dependencies
-pnpm install
+# Navigate to this feature workspace
+cd worktrees/feature-content-integration
+
+# Install dependencies (if not inherited)
+npm install
 
 # Start development server
-pnpm dev
-
-# Build for production
-pnpm build
+npm run dev
 ```
 
 ## Testing
 ```bash
-# Run tests
-pnpm test
+# Run feature-specific tests
+npm test
 
-# Run tests in watch mode
-pnpm test:watch
-
-# Generate coverage report
-pnpm test:coverage
+# Run integration tests
+npm run test:integration
 ```
 
-## Technology Stack
-- Next.js 15 + React 19
-- TypeScript
-- Tailwind CSS
-- Framer Motion + GSAP
-- pnpm package manager
+## Integration Notes
+This feature integrates with the main application through:
+- Content APIs for data retrieval and submission
+- Shared content display components
+- Authentication system for content access control
+- Search and filtering systems for content discovery
+- Notification system for content updates
