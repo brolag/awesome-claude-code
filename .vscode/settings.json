@@ -1,0 +1,26 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.iconTheme": "vscode-icons", 
+    "workbench.colorCustomizations": {
+        "titleBar.activeBackground": "#2d4a2d",
+        "titleBar.activeForeground": "#e8f5e8",
+        "titleBar.inactiveBackground": "#2d4a2d80",
+        "statusBar.background": "#2d4a2d",
+        "statusBar.foreground": "#e8f5e8",
+        "activityBar.background": "#254025",
+        "activityBar.foreground": "#e8f5e8",
+        "sideBar.background": "#294329",
+        "sideBar.foreground": "#e8f5e8"
+    },
+    "editor.fontSize": 14,
+    "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "git.enableSmartCommit": true,
+    "git.autofetch": true
+}
