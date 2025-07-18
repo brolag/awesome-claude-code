@@ -1,7 +1,7 @@
-# Feature: educational-content
+# Awesome Claude Code Website
 
 ## Overview
-This feature manages all educational content delivery, including course materials, lessons, quizzes, and interactive learning components. It provides a comprehensive system for content organization, progress tracking, and student engagement.
+Educational website about Claude Code designed for developers. Combines educational content delivery with modern layout structure and interactive components.
 
 ## Development Guidelines
 - This feature is developed in isolation from other features
@@ -9,34 +9,40 @@ This feature manages all educational content delivery, including course material
 - Follow established coding conventions and patterns
 - Write comprehensive tests for new functionality
 
-## Key Responsibilities
-- Course and lesson content management
-- Interactive learning components (quizzes, assignments, assessments)
-- Progress tracking and analytics
-- Content delivery and multimedia support
-- Student engagement and feedback systems
-- Content search and filtering capabilities
+## Key Features
+- Educational content about Claude Code usage
+- Interactive components (terminal simulator, command builder)
+- Modern layout with responsive design
+- Dark theme optimized for developers
+- Progressive learning structure
 
 ## Getting Started
 ```bash
-# Navigate to this feature workspace
-cd worktrees/feature-educational-content
-
-# Install dependencies (if not inherited)
-npm install
+# Install dependencies
+pnpm install
 
 # Start development server
-npm run dev
+pnpm dev
+
+# Build for production
+pnpm build
 ```
 
 ## Testing
 ```bash
-# Run feature-specific tests
-npm test
+# Run tests
+pnpm test
 
-# Run integration tests
-npm run test:integration
+# Run tests in watch mode
+pnpm test:watch
+
+# Generate coverage report
+pnpm test:coverage
 ```
 
-## Integration Notes
-This feature integrates with the basic-layout feature for content presentation and user management systems for authentication and progress tracking. It provides APIs for content retrieval and student progress management that other features can consume.
+## Technology Stack
+- Next.js 15 + React 19
+- TypeScript
+- Tailwind CSS
+- Framer Motion + GSAP
+- pnpm package manager

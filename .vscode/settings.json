@@ -1,16 +1,16 @@
 {
     "workbench.colorTheme": "Default Dark+",
-    "workbench.iconTheme": "vscode-icons", 
+    "workbench.iconTheme": "vscode-icons",
     "workbench.colorCustomizations": {
-        "titleBar.activeBackground": "#2d4a2d",
-        "titleBar.activeForeground": "#e8f5e8",
-        "titleBar.inactiveBackground": "#2d4a2d80",
-        "statusBar.background": "#2d4a2d",
-        "statusBar.foreground": "#e8f5e8",
-        "activityBar.background": "#254025",
-        "activityBar.foreground": "#e8f5e8",
-        "sideBar.background": "#294329",
-        "sideBar.foreground": "#e8f5e8"
+        "titleBar.activeBackground": "#1e3a5f",
+        "titleBar.activeForeground": "#e6f3ff",
+        "titleBar.inactiveBackground": "#1e3a5f80",
+        "statusBar.background": "#1e3a5f",
+        "statusBar.foreground": "#e6f3ff",
+        "activityBar.background": "#16324d",
+        "activityBar.foreground": "#e6f3ff",
+        "sideBar.background": "#1a3450",
+        "sideBar.foreground": "#e6f3ff"
     },
     "editor.fontSize": 14,
     "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
